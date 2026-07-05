@@ -19,7 +19,6 @@ set background=dark
 
 " ---- Basics ----
 set nocompatible
-set number
 set cursorline
 set relativenumber
 set hidden
@@ -46,6 +45,7 @@ set linebreak
 set clipboard=unnamedplus
 set pastetoggle=<F2>
 set undofile
+set undodir=~/vimfiles/undofiles//
 
 " ---- Style ----
 syntax on
