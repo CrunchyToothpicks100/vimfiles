@@ -6,6 +6,7 @@ Plug 'arcticicestudio/nord-vim' " Cobalt blue bg, ice blue, light green
 Plug 'joshdick/onedark.vim' " Gray bg, pink, lightgreen, orange
 
 " Allows fuzzy find files
+Plug 'junegunn/fzf', { 'do': { -> fzf#install()  }  }
 Plug 'junegunn/fzf.vim'
 
 " Type pairs of things
