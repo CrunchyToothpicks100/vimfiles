@@ -67,16 +67,15 @@ nnoremap <leader>e :Ex<CR>
 nnoremap <leader>s :Files<CR>
 
 " Toggle terminal
-nnoremap <leader>t :terminal<CR>
+nnoremap <A-i> :terminal<CR>
 
 " Open vimrc
 nnoremap <leader>, :e $MYVIMRC<CR>
 
 " ---- Insert Mode ----
 
-" Escape + save (jk / kj / JK / KJ)
-inoremap jk <Esc>:w<CR>
-inoremap JK <Esc>:w<CR>
+" Escape
+inoremap jk <Esc>
 
 call plug#end()
 
